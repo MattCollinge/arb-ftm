@@ -1,0 +1,29 @@
+{
+  "name": "arb-ftm",
+  "version": "0.1.0",
+  "description": "Arb exploration on on fantom",
+  "main": "index.js",
+  "repository": "https://github.com/MattCollinge/arb-ftm.git",
+  "author": "Matt Collinge <matt.collinge@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "truffle compile && jest"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-truffle5": "^2.0.3",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.4.1",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.2",
+    "jest": "^27.4.7",
+    "truffle": "^5.4.27",
+    "web3": "^1.6.1"
+  },
+  "dependencies": {
+    "@uniswap/lib": "^4.0.1-alpha",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "https://github.com/Uniswap/v2-periphery.git"
+  }
+}

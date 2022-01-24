@@ -1,3 +1,14 @@
+.DS_Store
+
+build
+cache
+
+#Secrets
+secrets.json
+
+#Hardhat outputs
+artifacts/
+
 # Logs
 logs
 *.log
